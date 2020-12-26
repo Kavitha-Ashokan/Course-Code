@@ -1,14 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Home from './Home';
+//import Home from './Home';
 import './index.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Counter from './counter';
+import LocalOption from './LocalOption';
 
 
 ReactDOM.render(
   <React.StrictMode>
-   <Home />
+   {/*<Home />*/}
+   <Counter />
+   <LocalOption />
   </React.StrictMode>,
   document.getElementById('root')
 );
